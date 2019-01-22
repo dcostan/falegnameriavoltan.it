@@ -1,0 +1,12 @@
+<mat-card class="card">
+  <img mat-card-image src="{{ cardInfo.image }}">
+  <h3>{{ cardInfo.header }}</h3>
+  <mat-card-content>
+    <p>
+      {{ cardInfo.body }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a routerLink="{{ cardInfo.url }}" mat-button>GALLERIA</a>
+  </mat-card-actions>
+</mat-card>

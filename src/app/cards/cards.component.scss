@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  max-width: calc(12vw + 1296px);
+  margin: 0 auto;
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a routerLink="">Aldo Voltan</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a routerLink="">Home</a>
+        </li>
+        <li>
+          <a routerLink="brand">Brand</a>
+        </li>
+        <li>
+          <a>Galleria</a>
+          <ul class="nav-dropdown">
+            <li *ngFor="let gallery of galleries" (click)="closeMenu()">
+              <a routerLink="gallery/{{ gallery }}">{{ gallery.upperCaseFirst() }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
