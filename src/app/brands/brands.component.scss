@@ -35,3 +35,19 @@ a:hover {
   margin: 0 auto;
   justify-content: center;
 }
+
+div.brand-img {
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 510px;
+  height: 400px;
+}
+
+@media (max-width: 510px) {
+  div.brand-img {
+    width: 310px;
+    height: 243px;
+  }
+}

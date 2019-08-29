@@ -3,7 +3,8 @@
     <mat-divider></mat-divider>
 </header>
 <div class="container">
-    <div class="brand" style="background-image: url('http://www.kasaserramenti.it/wp-content/uploads/2017/02/sunreak-1.jpg') !important;">
+    <div *ngFor="let brand of brands" routerLink="{{ brand.galleryUrl }}" class="brand-img" [style.background-image]="'url('+brand.logoUrl+')'"></div>
+    <!--<div class="brand" style="background-image: url('http://www.kasaserramenti.it/wp-content/uploads/2017/02/sunreak-1.jpg') !important;">
 
-    </div>
+    </div>-->
 </div>

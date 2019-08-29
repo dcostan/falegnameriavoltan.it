@@ -7,7 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrandsComponent implements OnInit {
 
-  constructor() { }
+  public brands: Object
+
+  constructor() { 
+    this.brands = [
+      { logoUrl: "../../assets/img/brands-logos/misterShutLogo.jpg", galleryUrl: "../gallery/misterShut_Next" },
+      { logoUrl: "../../assets/img/brands-logos/shucoLogo.jpg", galleryUrl: "../gallery/shuco" },
+      { logoUrl: "../../assets/img/brands-logos/GibusLogo.jpg", galleryUrl: "../gallery/gibus" }
+    ]
+  }
 
   ngOnInit() {
   }
