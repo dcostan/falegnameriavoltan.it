@@ -8,11 +8,11 @@ import * as $ from 'jquery';
 })
 export class NavbarComponent implements OnInit {
 
-  private galleries: string[]
+  public galleries: string[]
 
   constructor() { 
     this.galleries = [
-      "armadi", "bagni", "cucine", "finestre", "porte", "portoncini", "cantieri", "scale"
+      "armadi", "bagni", "cucine", "finestre", "porte", "portoncini", "cantieri", "scale", "realizzazioni particolari", "arredo pubblico"
     ]
   }
 

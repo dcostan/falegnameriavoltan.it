@@ -16,7 +16,7 @@
           <a>Galleria</a>
           <ul class="nav-dropdown">
             <li *ngFor="let gallery of galleries" (click)="closeMenu()">
-              <a routerLink="gallery/{{ gallery }}">{{ gallery.upperCaseFirst() }}</a>
+              <a routerLink="gallery/{{ gallery == 'realizzazioni particolari' ? 'realizParticolari' : (gallery == 'arredo pubblico' ? 'arredoPubblico' : gallery) }}">{{ gallery.upperCaseFirst() }}</a>
             </li>
           </ul>
         </li>
