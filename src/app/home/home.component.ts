@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  private headerInfo: Object
+  public headerInfo: Object
 
   constructor() {
     this.headerInfo = {
       title: 'Falegnameria Voltan',
-      body: 'La migliore falegnameria del mondo lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      imageUrl: 'https://images.unsplash.com/photo-1463082459669-fd1ca1692fea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'
+      body: 'La tradizione mantenuta nel tempo',
+      imageUrl: '../../assets/img/headers-imgs/jose-soriano-1230133-unsplas-with-shadow.jpg'
+      //imageUrl: 'https://images.unsplash.com/photo-1545022388-43a762e088b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80'
+      //https://images.unsplash.com/photo-1463082459669-fd1ca1692fea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80
     }
     //localBackup: ../../assets/img/headers-imgs/credit-to-ian-schneider-unsplash.jpg
   }
