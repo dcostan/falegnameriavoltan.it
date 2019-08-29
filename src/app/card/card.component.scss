@@ -4,6 +4,9 @@ $font-family: "Montserrat";
   max-width: 400px;
   margin: 2vw;
   font-family: $font-family;
+  display: flex;
+  flex-direction: column;
+  height: 510px;
 }
 
 /*.example-header-image {
@@ -11,12 +14,24 @@ $font-family: "Montserrat";
     background-size: cover;
   }*/
 
-img {
-  max-width: 432px;
-  max-height: 324px;
+div.image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 325px;
 }
 
 .mat-button {
   font-family: $font-family;
   font-weight: 600;
+}
+
+.mat-card-actions {
+  margin-top: auto;
+}
+
+@media (max-width: 405px) {
+  .card {
+    height: 545px;
+  }
 }

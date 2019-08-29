@@ -1,5 +1,5 @@
 <mat-card class="card">
-  <img mat-card-image src="{{ cardInfo.image }}">
+  <div class="image mat-card-image" [style.background-image]="'url('+cardInfo.image+')'"></div>
   <h3>{{ cardInfo.header }}</h3>
   <mat-card-content>
     <p>
