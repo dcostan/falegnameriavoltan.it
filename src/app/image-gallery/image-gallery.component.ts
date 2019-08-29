@@ -9,12 +9,13 @@ import { ActivatedRoute, ActivationEnd, Router } from '@angular/router'
 })
 export class ImageGalleryComponent implements OnInit {
 
-  private galleryType: string
+  public galleryType: string
   private acceptedTypes: string[]
 
   constructor(private route: ActivatedRoute, private router: Router) { 
     this.acceptedTypes = [
-      "armadi", "bagni", "cucine", "finestre", "porte", "portoncini", "cantieri", "scale"
+      "armadi", "bagni", "cucine", "finestre", "porte", "portoncini", "cantieri", "scale", "realizParticolari", "arredoPubblico",
+      "misterShut_Next", "shuco", "gibus"
     ]
 
     this.route.params.subscribe(params => {
