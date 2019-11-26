@@ -1,6 +1,7 @@
 # FalegnameriaVoltan
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+FalegnameriaVoltan is a Web app made with Angular by Matteo Brogin. All rights reserved.
+No one can remove any copyright notice from this project.
 
 ## Development server
 

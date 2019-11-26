@@ -1,3 +1,10 @@
+//
+//  Falegnameria-Voltan
+//
+//  Created by Matteo Brogin.
+//  Copyright © 2019 Matteo Brogin. All rights reserved.
+//
+
 import { Component, AfterViewInit, ViewChild } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
 
