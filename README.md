@@ -1,9 +1,7 @@
 # FalegnameriaVoltan
 
-FalegnameriaVoltan is a Web app made with Angular by Matteo Brogin. All rights reserved.
-No one can remove any copyright notice from this project.
-
-Owner's website: [matteobrogin.com](https://matteobrogin.com/)
+FalegnameriaVoltan is a Web app made with Angular by Matteo Brogin. No rights are reserved.
+This project is distibuted as a public domain software and anyone can copy and use it. No warranty is granted. 
 
 ## Development server
 
