@@ -2,7 +2,7 @@
 //  Falegnameria-Voltan
 //
 //  Created by Matteo Brogin.
-//  Copyright © 2019 Matteo Brogin. All rights reserved.
+//  No rights are reserved
 //
 
 import { Component, OnInit, Input } from '@angular/core';
