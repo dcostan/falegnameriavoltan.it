@@ -14,7 +14,8 @@ for folder in glob("images_raw/*"):
     try:
         mkdir(folder.replace("images_raw", "images", 1))
     except:
-        for f in glob(folder.replace("images_raw", "images", 1) + "/*"):            remove(f)
+        for f in glob(folder.replace("images_raw", "images", 1) + "/*"):
+            remove(f)
     for file in glob(folder + "/*"):
         img = Image.open(file)
         draw = ImageDraw.Draw(img)
