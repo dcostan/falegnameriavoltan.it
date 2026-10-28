@@ -3,6 +3,10 @@
 FalegnameriaVoltan is a Web app made with Angular by Matteo Brogin. No rights are reserved.
 This project is distributed as a public domain software and anyone can copy and use it. No warranty is granted. 
 
+## Requirements
+
+Before starting be sure to have an Ubuntu 20.04 Focal Fossa system, otherwise if you use newer distributions the compilation process will fail because of the outdated dependancies. After that install the reuqired packages by running `npm install` inside this repository.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
