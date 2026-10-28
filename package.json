@@ -1,7 +1,7 @@
 {
   "name": "falegnameria-voltan",
   "version": "1.0.0",
-  "description": "Webapp made for Aldo Voltan by Matteo Brogin. All rights reserved.",
+  "description": "Webapp made for Aldo Voltan website.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,10 +11,9 @@
     "e2e": "ng e2e"
   },
   "author": {
-    "name": "Matteo Brogin",
-    "url": "matteobrogin.com"
+    "name": "Matteo Brogin"
   },
-  "license": "All rights reserved",
+  "license": "Nolicense",
   "private": true,
   "dependencies": {
     "@angular/animations": "^7.1.4",
