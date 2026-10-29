@@ -6,7 +6,7 @@
 -->
 
 <mat-card class="card">
-  <div class="image mat-card-image" [style.background-image]="'url('+cardInfo.image+')'"></div>
+  <div class="image mat-card-image" [style.background-image]="'url('+cardInfo.image+')'" [routerLink]="[cardInfo.url]"></div>
   <h3>{{ cardInfo.header }}</h3>
   <mat-card-content>
     <p>
